@@ -3,7 +3,7 @@ import './style.css'
 import { io } from 'socket.io-client'
 import { startGame, type GamePlayer } from './game'
 
-const socket = io(`http://${window.location.hostname}:3001`)
+const socket = io('https://fawda-game.onrender.com')
 
 type Player = GamePlayer
 
